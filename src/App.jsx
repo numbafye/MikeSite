@@ -1,5 +1,10 @@
-import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import AppRoutes from "./routes.jsx";
 
-function App() {}
+function App() {
+  return (
+    <>
+      <AppRoutes />
+    </>
+  );
+}
 export default App;
