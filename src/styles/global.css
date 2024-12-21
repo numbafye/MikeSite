@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-h1 {
-  color: red;
+body {
+  margin: 0; /* Removes default browser margin */
+  padding: 0; /* Removes default browser padding */
+  box-sizing: border-box; /* Ensures padding/border don't increase element size */
+  scroll-behavior: smooth;
 }
+
