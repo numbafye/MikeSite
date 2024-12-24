@@ -4,8 +4,10 @@ export default {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
     colors: {
-      primary: "#FFFFFF",
-      secondary: "#121212",
+      accent: "#A3CBDB",
+      ig: "#E4405F",
+      spotify: "#1ED760",
+      sc: "#FF7700",
     },
     extend: {},
   },
