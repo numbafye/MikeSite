@@ -9,6 +9,11 @@ export default {
       spotify: "#1ED760",
       sc: "#FF7700",
     },
+    screens: {
+      'mobile': '360px',
+      'tablet': '768px',
+      'desktop': '1366px',
+    },
     extend: {},
   },
   plugins: [],
