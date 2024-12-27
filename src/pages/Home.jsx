@@ -1,7 +1,10 @@
+import  Header  from '../components/Header.jsx';
+
 function Home() {
   return (
     <>
-      <h1 className="border h-screen">Home</h1>
+      <Header>
+      </Header>
     </>
   );
 }

@@ -1,14 +1,16 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faXTwitter } from "@fortawesome/free-brands-svg-icons";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { faSoundcloud } from "@fortawesome/free-brands-svg-icons";
-import { faSpotify } from "@fortawesome/free-brands-svg-icons";
+import {
+  faSoundcloud,
+  faSpotify,
+  faInstagram,
+  faXTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
   return (
-    <div className="abosulte w-full bottom-0 border">
-      <div className="flex mobile:gap-3 mt-5 pl-3" id="Socials">
-      <h1>Footer</h1>
+    <div className="w-full">
+      <div className="flex justify-center gap-3 mt-5 pl-3" id="Socials">
+        <h1>Footer</h1>
         <a
           href="//x.com/MichaelJMillion"
           target="_blank"
