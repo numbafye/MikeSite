@@ -5,7 +5,8 @@ import Music from "./pages/Music";
 import Contact from "./pages/Contact";
 import Video from "./pages/Video";
 import NotFound from "./pages/NotFound";
-
+//LAZY LOADING OR SUSPENSE IMPORT??? 
+// ADD TO COMPONENTS THAT ARE HEAVYWEIGHT IF PERFORMANCE LACKS AT ALL.
 function AppRoutes() {
   return (
     <Router>

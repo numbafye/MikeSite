@@ -2,12 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  margin: 0; /* Removes default browser margin */
-  padding: 0; /* Removes default browser padding */
-  box-sizing: border-box; /* Ensures padding/border don't increase element size */
-  scroll-behavior: smooth;
-  background-color: #232222;
-  color: #F2F1EF;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
+* {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #232222;
+  color: #f2f1ef;
+}
+
+/* STYLE FOR MENU SCROLL */
+.no-scroll {
+  overflow: hidden;
+  height: 100vh; /* Optional, so the page doesn't extend */
+}
+
+.scrolled {
+  /*ADD CODE FOR STICKY NAV SCROLL*/
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: transparent;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
